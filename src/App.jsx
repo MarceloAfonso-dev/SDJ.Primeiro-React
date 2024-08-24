@@ -1,19 +1,12 @@
-function Filho({title, description, url}) {
-  return( 
-  <div>
-    <p>{title}</p>
-    <p>{description}</p>
-    <img src={url} alt="placeholder" />
-  </div>
-  );
-}
+import Card from "./components/card";
+
 
 export default function App() {
   return(
-    <Filho
-      title="Titulo do filho" 
-      description="descrição do filho"
-      url="https://via.placeholder.com/150"
-    />
+    <Card 
+    title="Cartão Visa 0976" 
+    image="https://pontospravoar.com/wp-content/uploads/2022/09/click_carta%CC%83o-digital.png"
+    description="Limite disponível: R$ 1.000,00"
+  />
   )
 }

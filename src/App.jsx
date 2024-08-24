@@ -1,9 +1,11 @@
-function Filho({ children }) {
-  return <div className="filho">{ children }</div>
+//function Filho({ children }) {
+//   return <div className="filho">{ children }</div>
+// }
+
+function Filho({ idade }) {
+  return <p>{idade}</p>
 }
 
 export default function App() {
-  return <Filho>
-    <p>Sou uma tag p passando por children</p>
-  </Filho>
+  return <Filho idade={20} />
 }

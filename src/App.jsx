@@ -1,5 +1,9 @@
-function Filho({title}) {
-  return <p>{title}</p>
+function Filho({title, description}) {
+  return 
+  <>
+    <p>{title}</p>
+    <p>{}</p>
+  </>
 }
 
 export default function App() {

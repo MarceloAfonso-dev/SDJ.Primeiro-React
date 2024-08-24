@@ -1,8 +1,11 @@
-function Filho({ onAlert }) {
-  return <button onClick={onAlert}>Receba seu alert</button>;
+function Saudacao({ nome = 'Mundo' }) {
+  return <h1>Olá, {nome}!</h1>;
 }
 
 export default function App() {
-  const handleAlert = () => alert('Alerta funcionando!');
-  return <Filho onAlert={handleAlert} />;
+  return (
+    <div>
+      <Saudacao nome="Marcelo" />
+    </div>
+  );
 }

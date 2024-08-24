@@ -33,5 +33,5 @@ function Filho({ approved }) {
 }
 
 export default function App() {
-  return <Filho approved={false} />
+  return <button onClick={() => alert("função funcionando")}>Click Aqui</button>;
 }

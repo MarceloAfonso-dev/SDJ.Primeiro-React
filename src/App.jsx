@@ -3,5 +3,6 @@ function Filho({ onAlert }) {
 }
 
 export default function App() {
-  return Filho({ onAlert: () => alert('Alerta funcionando!') });
+  const handleAlert = () => alert('Alerta funcionando!');
+  return <Filho onAlert={handleAlert} />;
 }

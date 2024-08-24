@@ -1,17 +1,19 @@
-function Filho({title, description}) {
-  return 
-  <>
+function Filho({title, description, url}) {
+  return( 
+  <div>
     <p>{title}</p>
-    <p>{}</p>
-  </>
+    <p>{description}</p>
+    <img src={url} alt="placeholder" />
+  </div>
+  );
 }
 
 export default function App() {
   return(
     <Filho
-      
-    title="Enviando uma mensagem pelo filho" 
-    
+      title="Titulo do filho" 
+      description="descrição do filho"
+      url="https://via.placeholder.com/150"
     />
-  ) 
+  )
 }

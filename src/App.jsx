@@ -1,5 +1,5 @@
-function Filho(props) {
-  return <p>{props.title}</p>
+function Filho({title}) {
+  return <p>{title}</p>
 }
 
 export default function App() {

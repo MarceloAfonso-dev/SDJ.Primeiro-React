@@ -1,8 +1,13 @@
-import Home from "./pages/home/index";
+function Filho(props) {
+  return <p>{props.title}</p>
+}
 
 export default function App() {
-
-  return (
-    <Home />
-  );
+  return(
+    <Filho
+      
+    title="Enviando uma mensagem pelo filho" 
+    
+    />
+  ) 
 }

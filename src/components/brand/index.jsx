@@ -4,6 +4,8 @@ import Elo from '../../assets/images/elo-svgrepo-com.svg';
 import Mastercard from '../../assets/images/mastercard-svgrepo-com.svg';
 import Visa from '../../assets/images/visa-classic-svgrepo-com.svg';
 
+//Houve REGEX, validação de bandeira de cartão de crédito com String
+
 export default function Brand({ brand }) {
     const brandStr = brand.toString();
 

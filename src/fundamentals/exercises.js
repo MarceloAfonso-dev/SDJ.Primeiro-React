@@ -45,3 +45,69 @@ function verificaValor(num) {
     }
 }
 console.log(verificaValor(0));
+
+function diaDaSemana(dia) {
+    switch (dia) {
+        case 1:
+            return "Domingo";
+        case 2:
+            return "Segunda";
+        case 3:
+            return "Terça";
+        case 4:
+            return "Quarta";
+        case 5:
+            return "Quinta";
+        case 6:
+            return "Sexta";
+        case 7:
+            return "Sábado";
+        default:
+            return "Dia inválido";
+    }
+}
+console.log(diaDaSemana(1));
+
+function verificadorDeMes(mes) {
+    switch (mes) {
+        case 1:
+            return "Janeiro";
+        case 2:
+            return "Fevereiro";
+        case 3:
+            return "Março";
+        case 4:
+            return "Abril";
+        case 5:
+            return "Maio";
+        case 6:
+            return "Junho";
+        case 7:
+            return "Julho";
+        case 8:
+            return "Agosto";
+        case 9:
+            return "Setembro";
+        case 10:
+            return "Outubro";
+        case 11:
+            return "Novembro";
+        case 12:
+            return "Dezembro";
+        default:
+            return "Mês inválido";
+    }
+}
+console.log(verificadorDeMes(12));
+
+function avaliaString(str) {
+    switch (str) {
+        case str.length > 5:
+            return "Avançado";
+        case str.length > 3:
+            return "Intermédiaro";
+        default:
+            return "Iniciante";
+    }
+}
+console.log(avaliaString("oi"));

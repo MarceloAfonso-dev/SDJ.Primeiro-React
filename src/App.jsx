@@ -1,21 +1,13 @@
-import Card from "./components/card";
-import Box from "./assets/images/Vector.svg"
+import Brand from "./components/brand";
 
 export default function App() {
   return (
-    <div className="parent-div">
-      <Card
-        title="Highlight benefit one"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros."
-        src={Box}
-        alt="Relume Logo"
-      />
-      <Card
-        title="Highlight benefit two"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros."
-        src={Box}
-        alt="Relume Logo"
-      />
+    <div>
+      <Brand brand="4111111111111111" />
+      <Brand brand="5555555555554444" />
+      <Brand brand="378282246310005" />
+      <Brand brand="5067999999999999" />
+      <Brand brand="" />
     </div>
   );
 }

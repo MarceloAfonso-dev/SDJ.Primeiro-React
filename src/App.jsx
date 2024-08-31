@@ -1,11 +1,7 @@
-function Saudacao({ nome = 'Mundo' }) {
-  return <h1>Olá, {nome}!</h1>;
-}
+import Card from "./components/card";
 
 export default function App() {
   return (
-    <div>
-      <Saudacao nome="Marcelo" />
-    </div>
+    Card({title: 'Page One', description: 'Lorem ipsum dolor sit amet consectetur elit'})
   );
 }

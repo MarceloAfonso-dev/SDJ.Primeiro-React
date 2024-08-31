@@ -1,38 +1,8 @@
-.card {
-    width: 300px;
-    height: 430px;
-    background-color: #f6f6f6;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
+.card-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    padding: 0 20px;
-}
-
-.card > img {
-    width: 100%;
-    object-fit: cover;
-    border-radius: 10px 10px 0 0;
-}
-
-.titulo {
-    font-size: 25px;
-    font-weight: 700;
-    color: #333;
-    margin: auto 0 10px 0;
-}
-
-.descricao {
-    font-size: 16px;
-    color: #666;
-    margin: 10px 0 0px 0;
-}
-.barra {
-    width: 100%;
-    height: 5px;
-    background-color: #f77003;
-    border-radius: 5px;
-    margin: 10px 0 80px 0;
+    align-items: flex-start;
+    width: 226px;
+    height: 40px;
+    gap: 24px;
 }

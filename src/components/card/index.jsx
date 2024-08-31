@@ -1,12 +1,12 @@
 import './style.css'
+import Box from "../../assets/images/Relume.svg"
 
-export default function Card({title, description, image}) {
+export default function Card({title, description}) {
     return( 
-        <div className='card'>
-            <p className='titulo'>{title}</p>
-            <img src={image} alt="imageAlt" />
-            <p className='descricao'>{description}</p>
-            <div className='barra'></div>
+        <div className='card-container'>
+            <img src={Box} alt="imagem de um card" />
+            <h2>{title}</h2>
+            <p>{description}</p>
         </div>
     );
 }

@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 226px;
-    height: 40px;
+    width: 296px;
+    height: 180;
     gap: 24px;
 }

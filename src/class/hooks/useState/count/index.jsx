@@ -11,7 +11,6 @@ export default function Count() {
     return (
         <div>
             <p>Você clicou {count} vezes</p>
-            // Arrow Function de preguiçoso
             <button onClick={() => setCount(count + 1)}>Click Aqui</button>
         </div>
     )

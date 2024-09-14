@@ -1,7 +1,7 @@
-import CountEffect from "./class/hooks/useEffect/countEffect";
+import PokemonAPI from "./class/hooks/useHooks/pokemonAPI";
 
 export default function App() {
   return (
-    <CountEffect />
+    <PokemonAPI />
   );
 }

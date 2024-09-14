@@ -1,7 +1,7 @@
-import Accordion from "./class/hooks/useState/accordion";
+import CountEffect from "./class/hooks/useEffect/countEffect";
 
 export default function App() {
   return (
-    <Accordion />
+    <CountEffect />
   );
 }

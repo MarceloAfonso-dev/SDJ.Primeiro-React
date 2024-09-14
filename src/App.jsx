@@ -1,9 +1,7 @@
-import Square from "./components/square";
+import Count from "./class/hooks/useState/count";
 
 export default function App() {
   return (
-    <div className="app-container">
-      <Square color="red" />
-    </div>
+    Count()
   );
 }

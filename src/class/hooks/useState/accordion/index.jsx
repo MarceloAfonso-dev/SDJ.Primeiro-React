@@ -16,7 +16,7 @@ export default function Accordion() {
             </div>
             {isOpen && (
                 <div className="accordion-content">
-                    <p>Sei fazer um accordion jsx com hook</p>
+                    <p>Parágrafo qualquer</p>
                 </div>
             ) }
         </div>

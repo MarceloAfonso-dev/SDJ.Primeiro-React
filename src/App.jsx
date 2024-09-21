@@ -1,8 +1,7 @@
-import PokemonAPI from "./class/hooks/useHooks/pokemonAPI";
-import Count from "./class/hooks/useState/count";
+import Posts from "./class/hooks/useHooks/apiDesafio";
 
 export default function App() {
   return (
-    <PokemonAPI />
+    <Posts/>
   );
 }

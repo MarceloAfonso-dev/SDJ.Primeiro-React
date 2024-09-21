@@ -1,0 +1,1 @@
+export {default as boxLogo} from './Vector.svg';
